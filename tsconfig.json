@@ -8,5 +8,9 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false
-  }
+  },
+  "exclude": [
+    "nativescript",
+    "node_modules"
+  ]
 }
