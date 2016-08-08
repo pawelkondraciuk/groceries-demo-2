@@ -1,4 +1,4 @@
-import {RouterConfig, provideRouter} from '@angular/router';
+import {RouterConfig} from '@angular/router';
 import {nsProvideRouter} from 'nativescript-angular/router';
 
 import {LoginComponent} from "./pages/login/login.component";
