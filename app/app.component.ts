@@ -6,8 +6,8 @@ import {ListComponent} from "./pages/list/list.component";
 
 @Component({
   selector: "groceries-app",
-  template: "<router-outlet></router-outlet>",
   directives: [ROUTER_DIRECTIVES],
+  template: "<router-outlet></router-outlet>",
   precompile: [LoginComponent, ListComponent]
 })
 export class AppComponent {}
